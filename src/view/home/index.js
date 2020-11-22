@@ -8,6 +8,7 @@ import Navbar from '../../components/navbar/'
 import Slide from '../../components/slide/'
 import Card from '../../components/card/'
 import FullCard from '../../components/fullCard/'
+import Botao from '../../components/botaoPadrao/'
 
 function Home(){
     return (
@@ -28,7 +29,7 @@ function Home(){
                     <Card/>
                     <Card/>
                 </div>
-                
+                <Botao  />
             </div>
         </>
     ) 

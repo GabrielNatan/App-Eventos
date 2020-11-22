@@ -1,0 +1,12 @@
+.btn{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: #FFF;
+    font-size: 30px;
+    border: none;
+    display: block;
+    margin:10px auto;
+}
