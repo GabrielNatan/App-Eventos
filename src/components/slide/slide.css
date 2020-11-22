@@ -1,0 +1,52 @@
+.slide{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: coral;
+    border-radius: 60px 0 60px 0;
+    margin:30px 0 0 0;
+}
+
+.slide ul{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    transition: .3s linear;
+
+}
+
+.slide ul li{
+    width: 100%;
+    background-color: darkcyan;
+    list-style: none;
+    font-weight: bold;
+    font-size:33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s linear;
+}
+
+.slide ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.prev{
+    padding: 10px 0px;
+}
+
+.prev span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: #CCC;
+}
+
+.prev span.active{
+    border: 3px solid #222;
+}

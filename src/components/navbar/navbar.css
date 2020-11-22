@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding: 10px 5%;
+    background-color: #CECECE;
+    position: fixed;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 300px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.logo h1{
+    color:red;
+}
+
+nav{
+    width: 500px;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 10px;
+}
